@@ -1129,6 +1129,20 @@ body:not(.post-template) .post-title {
     margin: 0;
 }
 
+.post-footer h4 .share-twitter, .post-footer h4 .share-github {
+    display: inline-block;
+    margin-left: 1rem;
+    color: #BBC7CC;
+    text-decoration: none;
+}
+
+.post-footer h4 .share-twitter:hover {
+    color: #55acee;
+}
+.post-footer h4 .share-github:hover {
+    color: #000;
+}
+
 .post-footer p {
     margin: 1rem 0;
     font-size: 1.4rem;
@@ -1186,13 +1200,13 @@ body:not(.post-template) .post-title {
     text-decoration: none;
 }
 
-.post-footer .share .icon-twitter:hover {
+.post-footer .share .share-twitter:hover {
     color: #55acee;
 }
-.post-footer .share .icon-facebook:hover {
+.post-footer .share .share-facebook:hover {
     color: #3b5998;
 }
-.post-footer .share .icon-google-plus:hover {
+.post-footer .share .share-google-plus:hover {
     color: #dd4b39;
 }
 
