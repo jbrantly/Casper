@@ -1085,7 +1085,7 @@ body:not(.post-template) .post-title {
     display: block;
     max-width: 126%;
     height: auto;
-    padding: 0.6em 0;
+    padding: 0 0;
     /* Centers an image by (1) pushing its left edge to the
        center of its container and (2) shifting the entire image
        in the opposite direction by half its own width.
@@ -1095,6 +1095,9 @@ body:not(.post-template) .post-title {
     -webkit-transform: translateX(-50%); /* for Safari and iOS */
     -ms-transform: translateX(-50%); /* for IE9 */
     transform: translateX(-50%);
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
 }
 
 .footnotes {
